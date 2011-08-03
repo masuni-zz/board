@@ -12,7 +12,7 @@ DROP TABLE IF EXISTS `testdb`.`board` ;
 
 CREATE  TABLE IF NOT EXISTS `testdb`.`board` (
 		`id` INT UNSIGNED NOT NULL AUTO_INCREMENT ,
-		`name` VARCHAR(64) NULL ,
+		`name` VARCHAR(64) NOT NULL ,
 		`body` TEXT NOT NULL ,
 		`password` VARCHAR(128) NOT NULL ,
 		`parent_id` INT UNSIGNED DEFAULT 0 ,
