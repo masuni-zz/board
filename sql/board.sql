@@ -1,0 +1,30 @@
+SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0;
+SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0;
+SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='TRADITIONAL';
+
+CREATE SCHEMA IF NOT EXISTS `testdb` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci ;
+USE `testdb` ;
+
+-- -----------------------------------------------------
+-- Table `testdb`.`board`
+-- -----------------------------------------------------
+DROP TABLE IF EXISTS `testdb`.`board` ;
+
+CREATE  TABLE IF NOT EXISTS `testdb`.`board` (
+		`id` INT UNSIGNED NOT NULL AUTO_INCREMENT ,
+		`name` VARCHAR(64) NULL ,
+		`body` TEXT NOT NULL ,
+		`password` VARCHAR(128) NOT NULL ,
+		`parent_id` INT UNSIGNED DEFAULT 0 ,
+		`update_dt` TIMESTAMP NOT NULL ,
+		`insert_dt` TIMESTAMP NOT NULL ,
+		PRIMARY KEY (`id`) )
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8
+COLLATE = utf8_general_ci;
+
+
+
+SET SQL_MODE=@OLD_SQL_MODE;
+SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
+SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
