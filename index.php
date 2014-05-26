@@ -98,6 +98,10 @@ function test_ddd() {
     var_dump('test DDD');
 }
 
+function ticket003() {
+    echo "ticket003\n";
+}
+
 function ticket004() {
     echo "ticket004\n";
     echo "ticket006\n";
