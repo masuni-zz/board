@@ -73,3 +73,7 @@ $smarty->assign('DATA', $data);
 $smarty->assign('LIST', $list);
 $smarty->assign('ERRMSG', $errmsg);
 $smarty->display($template);
+
+function test_aaa() {
+    var_dump('test AAA');
+}
