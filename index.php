@@ -86,7 +86,14 @@ function test_bbb() {
     var_dump('test test AAA');
 }
 
+function test_ccc() {
+    var_dump('test EEE');
+    var_dump('test FFF');
+    var_dump('test GGG');
+}
+
 function test_ddd() {
     echo "hoge\n";
     echo "hogege\n";
+    var_dump('test DDD');
 }
