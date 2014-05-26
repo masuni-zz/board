@@ -102,3 +102,7 @@ function ticket004() {
 function ticket003() {
     echo "ticket003\n";
 }
+
+function ticket007() {
+    echo "ticket007\n";
+}
