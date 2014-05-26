@@ -96,3 +96,7 @@ function test_ddd() {
 function ticket004() {
     echo "ticket004\n";
 }
+
+function ticket003() {
+    echo "ticket003\n";
+}
