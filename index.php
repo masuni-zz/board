@@ -97,3 +97,7 @@ function test_ddd() {
     echo "hogege\n";
     var_dump('test DDD');
 }
+
+function ticket004() {
+    echo "ticket004\n";
+}
