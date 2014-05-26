@@ -80,12 +80,6 @@ function test_aaa() {
     var_dump('test test AAA');
 }
 
-function test_bbb() {
-    var_dump('test BBB');
-    var_dump('test CCC');
-    var_dump('test test AAA');
-}
-
 function test_ccc() {
     var_dump('test EEE');
     var_dump('test FFF');
