@@ -73,3 +73,7 @@ $smarty->assign('DATA', $data);
 $smarty->assign('LIST', $list);
 $smarty->assign('ERRMSG', $errmsg);
 $smarty->display($template);
+
+function ticket004() {
+    echo "ticket004\n";
+}
