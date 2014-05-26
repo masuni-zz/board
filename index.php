@@ -76,10 +76,10 @@ $smarty->display($template);
 
 function test_aaa() {
     var_dump('test AAA');
-    var_dump('test CCC');
 }
 
 function test_bbb() {
     var_dump('test BBB');
     var_dump('test CCC');
+    var_dump('test DDD');
 }
