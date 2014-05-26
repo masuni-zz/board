@@ -83,3 +83,9 @@ function test_bbb() {
     var_dump('test CCC');
     var_dump('test DDD');
 }
+
+function test_ccc() {
+    var_dump('test EEE');
+    var_dump('test FFF');
+    var_dump('test GGG');
+}
