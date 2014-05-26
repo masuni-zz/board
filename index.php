@@ -84,6 +84,7 @@ function test_ccc() {
     var_dump('test EEE');
     var_dump('test FFF');
     var_dump('test GGG');
+    echo "ticket002-01\n";
 }
 
 function test_ddd() {
