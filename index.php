@@ -77,3 +77,7 @@ $smarty->display($template);
 function test_aaa() {
     var_dump('test AAA');
 }
+
+function test_bbb() {
+    var_dump('test BBB');
+}
