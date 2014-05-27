@@ -105,4 +105,5 @@ function ticket004() {
 
 function ticket007() {
     echo "ticket007\n";
+    echo "ticket008-1\n";
 }
